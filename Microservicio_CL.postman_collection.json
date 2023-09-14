@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "60d64d65-ab33-49ae-b9ec-2fb0e431f210",
+		"name": "Microservicio_CL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28089214",
+		"_collection_link": "https://restless-satellite-705657.postman.co/workspace/campus~9af3287f-2ec9-4e14-b510-038753553286/collection/28089214-60d64d65-ab33-49ae-b9ec-2fb0e431f210?action=share&source=collection_link&creator=28089214"
+	},
+	"item": [
+		{
+			"name": "1.ordenar de manera alfabetica los usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio1/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.obtener medicos de una especialidad en especifico (Cardiología)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio3/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4.Encontrar la próxima cita para un paciente en específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio4/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. Encontrar todas las citas de un día en específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio6/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio6",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7. Obtener todos los médicos con sus consultorios correspondientes.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio7/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio7",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8.Contar el número de citas que un médico tiene en un día específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio8/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio8",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "12.Mostrar todas las citas que fueron rechazadas de un mes en específico. Dicha consulta deberá mostrar la fecha de la cita, el nombre del usuario y el médico designado.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4520/microservicio/ejercicio12/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4520",
+					"path": [
+						"microservicio",
+						"ejercicio12",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
